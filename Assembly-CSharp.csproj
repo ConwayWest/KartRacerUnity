@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C2506BBD-05D4-E351-EDEF-185A0DA6C45A}</ProjectGuid>
+    <ProjectGuid>{45B89418-C8E3-9474-6AF3-26C3089878D9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,33 +62,40 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AIController.cs" />
+    <Compile Include="Assets\Circuit.cs" />
     <Compile Include="Assets\Drive.cs" />
+    <Compile Include="Assets\FlipCar.cs" />
+    <Compile Include="Assets\PlayerController.cs" />
+    <Compile Include="Assets\WheelEffects\BetterWheelEffects\Skidmarks.cs" />
+    <Compile Include="Assets\WheelEffects\BetterWheelEffects\WheelSkid.cs" />
+    <None Include="Assets\WheelEffects\BetterWheelEffects\Skidmarks.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/Learning Resources/Unity Kart Racer/KartRacerUdemy/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/Learning Resources/Unity Kart Racer/KartRacerUdemyGit/KartRacerUnity/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/Learning Resources/Unity Kart Racer/KartRacerUdemy/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/Learning Resources/Unity Kart Racer/KartRacerUdemyGit/KartRacerUnity/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Learning Resources/Unity Kart Racer/KartRacerUdemy/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Learning Resources/Unity Kart Racer/KartRacerUdemyGit/KartRacerUnity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/Learning Resources/Unity Kart Racer/KartRacerUdemy/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/Learning Resources/Unity Kart Racer/KartRacerUdemyGit/KartRacerUnity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/Learning Resources/Unity Kart Racer/KartRacerUdemy/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/Learning Resources/Unity Kart Racer/KartRacerUdemyGit/KartRacerUnity/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Learning Resources/Unity Kart Racer/KartRacerUdemy/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/Learning Resources/Unity Kart Racer/KartRacerUdemyGit/KartRacerUnity/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/Learning Resources/Unity Kart Racer/KartRacerUdemy/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/Learning Resources/Unity Kart Racer/KartRacerUdemyGit/KartRacerUnity/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Learning Resources/Unity Kart Racer/KartRacerUdemy/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Learning Resources/Unity Kart Racer/KartRacerUdemyGit/KartRacerUnity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/Learning Resources/Unity Kart Racer/KartRacerUdemy/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/Learning Resources/Unity Kart Racer/KartRacerUdemyGit/KartRacerUnity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.7f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
